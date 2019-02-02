@@ -1,0 +1,24 @@
+
+.mainSlider1 {
+    width:100vw;
+    height:60vh;
+    background:url('../../../static/images/hgmain0.jpg') center/cover  no-repeat;
+}
+
+.mainSlider2 {
+  width: 100vw;
+  height: 100vh;
+  background: url('../../../static/images/hgmain1.jpg') center/cover no-repeat;
+}
+
+.mainSlider3 {
+  width: 100vw;
+  height: 100vh;
+  background: url('../../../static/images/hgmain2.jpg') center/cover no-repeat;
+}
+
+.mainSlider4 {
+  width: 100vw;
+  height: 100vh;
+  background: url('../../../static/images/hgmain3.jpg') center/cover no-repeat;
+}
