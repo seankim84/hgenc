@@ -1,0 +1,84 @@
+.DoitTwo {
+    width:100vw;
+    height: 100vh;
+}
+
+.DoitTwoTitle h3 {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    width:100%;
+    color: #000000;
+    display: grid;
+    justify-items: left;
+}
+
+.DoitTwoTitle span {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  width: 100%;
+  display: grid;
+  justify-items: left;
+}
+
+
+.DoitTwoBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding: 3rem 2rem 0 2rem;
+  width: 100%;
+  height: 80%;
+}
+
+.DoitTwoBox p {
+    display: none;
+}
+
+.InnersBox1 {
+  background: url('../../../static/images/civil1.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnersBox2 {
+  background: url('../../../static/images/civil2.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnersBox3 {
+  background: url('../../../static/images/civil3.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnersBox4 {
+  background: url('../../../static/images/civil4.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnersBox5 {
+  background: url('../../../static/images/civil5.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnersBox6 {
+  background: url('../../../static/images/civil6.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnersBox7 {
+  background: url('../../../static/images/civil7.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnersBox8 {
+  background: url('../../../static/images/civil8.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

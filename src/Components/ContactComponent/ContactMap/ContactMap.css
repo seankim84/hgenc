@@ -1,0 +1,10 @@
+.MapContainer .ant-steps-label-horizontal {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.googleMap {
+  padding-top: 2rem;
+}

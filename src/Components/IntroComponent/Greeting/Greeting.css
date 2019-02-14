@@ -1,0 +1,15 @@
+.Greeting {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #f8f8f8;
+  height: 80vh;
+  width: 100vw;
+}
+
+.GreetingExplain {
+  display: grid;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}

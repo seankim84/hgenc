@@ -1,13 +1,20 @@
 import React, {  Component } from 'react';
+import Helmet from 'react-helmet';
 import Header from '../Components/Header';
+import InvestMain from '../Components/InvestComponent/investMain';
+import Investment from '../Components/InvestComponent/investment';
 import Footer from '../Components/Footer';
 
 class Invest extends Component {
     render(){
         return (
             <div>
+            <Helmet>
+                <title>H&G | Invest</title>
+            </Helmet>
             <Header />
-                This is Home
+                <InvestMain />
+                <Investment />
             <Footer />
             </div>
         )

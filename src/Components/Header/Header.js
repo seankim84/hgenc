@@ -37,7 +37,7 @@ class Header extends Component {
               <Link to={'/invest'}>Invest</Link>
             </li>
             <li>
-              <Link to={'/factory'}>Factroy</Link>
+              <Link to={'/factory'}>Factory</Link>
             </li>
             <li>
               <Link to={'/contact'}>Contact</Link>

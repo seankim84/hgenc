@@ -1,0 +1,14 @@
+.InvestMain {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('https://cdn.pixabay.com/photo/2018/04/06/11/21/office-3295556_1280.jpg') center/cover fixed no-repeat;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.InvestMain h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}

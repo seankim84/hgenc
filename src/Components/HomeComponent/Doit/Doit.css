@@ -1,0 +1,100 @@
+.Doit {
+    width: 100vw;
+    height: 100vh;
+    background: #222328;
+}
+
+.DoitTitle {
+  padding-top: 3rem;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 3rem;
+}
+
+.DoitTitle h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 2.5rem;
+  border-bottom: 5px solid #a52218;
+}
+
+.DoitTitle h3 {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: #ffffff;
+    width:100%;
+    display: grid;
+    justify-items: left;
+}
+
+.DoitTitle span {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: #e6e6e6;
+    width:100%;
+    display: grid;
+    justify-items: left;
+}
+
+
+.DoitBox {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    padding: 0 2rem 0 2rem;
+    width: 100%;
+    height: 60%;
+}
+
+.DoitBox p {
+  display:none;
+}
+
+.InnerBox1 {
+    background: url('../../../static/images/plant1.png') center/cover no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.InnerBox2 {
+  background: url('../../../static/images/plant2.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnerBox3 {
+  background: url('../../../static/images/plant3.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnerBox4 {
+  background: url('../../../static/images/plant4.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnerBox5 {
+  background: url('../../../static/images/plant5.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnerBox6 {
+  background: url('../../../static/images/plant6.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnerBox7 {
+  background: url('../../../static/images/plant7.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InnerBox8 {
+  background: url('../../../static/images/plant8.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

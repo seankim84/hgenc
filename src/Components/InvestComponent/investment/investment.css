@@ -1,0 +1,14 @@
+.invest {
+    width: 100vw;
+    height: 90vh;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.InvestBox {
+    display:  grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.InvestInnerBox1 {
+    
+} 

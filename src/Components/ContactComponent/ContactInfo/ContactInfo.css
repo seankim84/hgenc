@@ -1,0 +1,66 @@
+.contact {
+  width: 100vw;
+  height: 90vh;
+  padding-top: 5vh;
+
+}
+
+.contactTitle {
+  display: grid;
+  justify-items: center;
+  padding-bottom: 3rem;
+}
+
+.contactTitle h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  border-bottom: 5px solid #1d3977;
+}
+
+
+
+.contactMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contactBoxs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding-left: 2rem;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+.contactExplain {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.contactExplain h1 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.contactExplain p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contactExplain span {
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.contactMap {
+  padding-right: 2rem;
+}

@@ -30,18 +30,26 @@ class Slider extends Component {
     return (
       <div className="mainSlider">
         <Carousel ref={node => this.carousel = node } {...props}>
-            <div className="mainSlider1">dfsfasdf</div>
-            <div className="mainSlider2">sdfsafd</div>
-            <div className="mainSlider3">sadfasf</div>
-            <div className="mainSlider4">asdfsaf</div>
+            <div className="mainSlider1">
+              <h3 className="mainSliderExplain">Architecture is inhabited sculpture</h3>
+            </div>
+            <div className="mainSlider2">
+              <h3 className="mainSliderExplain">Life is architecture and architecture is the mirror of life</h3>
+            </div>
+            <div className="mainSlider3">
+              <h3 className="mainSliderExplain">Each new situation requires a new architecture</h3>
+            </div>
+            <div className="mainSlider4">
+              <h3 className="mainSliderExplain">Whatever good things we build end up building us.</h3>
+            </div>
         </Carousel>
 
-        <div className="properButton">
-          <div onClick={this.previous}>
-            <Icon className="properLeft" type="left" />
+        <div className="sliderButton">
+          <div className="buttonLeft" onClick={this.previous}>
+            <Icon style={{ fontSize:"2.5rem", color: "#ffffff" }} className="leftIcon" type="left" />
           </div>
-          <div onClick={this.next}>
-            <Icon className="properRight" type="right" />
+          <div className="buttonRight" onClick={this.next}>
+            <Icon style={{ fontSize:"2.5rem", color: "#ffffff" }} className="rightIcon" type="right" />
           </div>
         </div>
       </div>

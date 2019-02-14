@@ -2,23 +2,69 @@
 .mainSlider1 {
     width:100vw;
     height:60vh;
-    background:url('../../../static/images/hgmain0.jpg') center/cover  no-repeat;
+    background:linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url('../../../static/images/hgmain0.jpg') center/cover no-repeat;
 }
 
 .mainSlider2 {
   width: 100vw;
-  height: 100vh;
-  background: url('../../../static/images/hgmain1.jpg') center/cover no-repeat;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url('../../../static/images/hgmain1.jpg') center/cover no-repeat;
 }
 
 .mainSlider3 {
   width: 100vw;
-  height: 100vh;
-  background: url('../../../static/images/hgmain2.jpg') center/cover no-repeat;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url('../../../static/images/hgmain2.jpg') center/cover no-repeat;
 }
 
 .mainSlider4 {
   width: 100vw;
-  height: 100vh;
-  background: url('../../../static/images/hgmain3.jpg') center/cover no-repeat;
+  height: 60vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+  url('../../../static/images/hgmain3.jpg') center/cover no-repeat;
+}
+
+.mainSliderExplain {
+    width:100%;
+    height: 100%;
+    display: grid;
+    justify-items:center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.sliderButton {
+    width:100vw;
+    position: absolute;
+    top: 42.5vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttonRight {
+    display:grid;
+    justify-items: flex-end;
+    padding-right:3rem;
+    cursor:pointer;
+    transition: .5s ease;
+}
+
+.buttonLeft {
+    padding-left: 3rem;
+   
+}
+
+.buttonLeft svg:hover{
+     cursor:pointer;
+    transition: .5s ease;
+    color: #1d3977;
+}
+
+.buttonRight svg:hover {
+     cursor:pointer;
+    transition: .5s ease;
+  color: #1d3977;
 }

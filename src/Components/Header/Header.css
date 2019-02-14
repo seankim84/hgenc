@@ -40,11 +40,14 @@
   justify-items: center;
   align-items: center;
   font-family: 'Merriweather',serif;
+  list-style: none;
+  
 }
 
 .HeaderNav a {
   text-decoration: none;
   font-size: 1.2rem ;
+  color: #000000;
 }
 
 .HeaderNav nav ul li:hover {
