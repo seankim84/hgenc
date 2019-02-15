@@ -2,6 +2,7 @@ import React, {  Component } from 'react';
 import Helmet from 'react-helmet';
 import Header from '../Components/Header';
 import FactoryMain from '../Components/FactoryComponent/FactoryMain';
+import Construct from '../Components/FactoryComponent/Construct';
 import Footer from '../Components/Footer';
 
 
@@ -14,6 +15,7 @@ class Factory extends Component {
             </Helmet>
             <Header />
                 <FactoryMain />
+                <Construct />
             <Footer />
             </div>
         )

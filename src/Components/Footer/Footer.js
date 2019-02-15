@@ -16,9 +16,9 @@ const Footer = () => (
         </div>
             
         <div className="footerIcon">
-            <div className="facebook"><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="facebook" /></div>
-            <div className="linkedin"><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="linkedin" /></div>
-            <div className="instagram "><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="instagram" /></div>
+            <div className="facebook"><a style={{}} target="blank" href={"https://www.facebook.com/HGENCVN/"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="facebook" /></a></div>
+            <div className="linkedin"><a style={{}} target="blank" href={"https://www.linkedin.com/company/hgenc/"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="linkedin" /></a></div>
+            <div className="instagram"><a href={"http://localhost:3000/contact"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="mail" /></a></div>
         </div>
     </div>
 )

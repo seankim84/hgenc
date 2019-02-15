@@ -1,0 +1,114 @@
+.Construct {
+    width:100vw;
+    height: 150vh;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.constructTitle {
+  padding-bottom: 2rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.constructTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #26396f;
+}
+
+.constructBox {
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.constructIcon {
+    display: grid;
+    justify-items: center;
+    padding-bottom: 1rem;
+}
+
+
+.constructExplain h4 {
+    font-size: 1.4rem;
+    display:flex;   
+    justify-content: center;
+}
+
+.factoryBox {
+    width: 100%;
+    height: 50vh;   
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.factoryExplain1 {
+  background:#33a5a8;
+}
+
+.factoryExplain2 {
+    background: #343C44;
+}
+
+.factoryInnerExplain1 {
+    padding-top: 1.5rem;
+    width:100%;
+    height: 100%;
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.factoryInnerExplain1 span {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    display:grid;
+    justify-items: center;
+}
+
+.factoryInnerExplain1 p {
+    margin: 0;
+    font-size:1.2rem;
+    padding: 0 0 1rem 2rem;
+}
+
+.factoryButton {
+    display:grid;
+    justify-items: center;
+    color: #000000;
+}
+
+.factoryButton :hover {
+    background: #33a5a8;
+}
+
+.factoryButton button {
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    background: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.factoryExplain2 {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.factoryInnerExplain {
+    display:flex;
+}
+
+.innerExplainBox {
+    width:100%;
+    height:100%;
+    padding-left:2rem;
+}
+
+.innerExplainBox h4 {
+    color:  #ffffff;
+    font-size: 1.3rem;
+}

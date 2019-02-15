@@ -1,14 +1,24 @@
 .invest {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     padding: 2rem 3rem 2rem 3rem;
 }
+
+.investTitle {
+    padding-bottom:2rem;
+    display:grid;
+    justify-items: flex-start;
+    width: 100%;
+}
+
+.investTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #26396f;
+}
+
 
 .InvestBox {
     display:  grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-gap:1.5rem;
 }
-
-.InvestInnerBox1 {
-    
-} 

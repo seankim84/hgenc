@@ -2,7 +2,7 @@
   width :100%;
   height:100%;
   position: relative;
-  bottom: 0;
+  bottom: 0.7rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -30,22 +30,34 @@
 .footerIcon {
   display:flex;
   justify-content: center;
-  padding-top: 1rem;
+  padding: 1rem 0 1rem 0.5rem;
 }
 
-.footerIcon .facebook:hover {
+.facebook a {
+  color: #7d7d7d;
+}
+
+.linkedin a {
+  color: #7d7d7d;
+}
+
+.instagram a {
+  color: #7d7d7d;
+}
+
+.footerIcon .facebook a:hover {
   color: #1d3977;
   transition: 0.5s ease;
   cursor:pointer;
 }
 
-.footerIcon .linkedin:hover {
+.footerIcon .linkedin a:hover {
   color: #1d3977;
   transition: 0.5s ease;
   cursor: pointer;
 }
 
-.footerIcon .instagram:hover {
+.footerIcon .instagram a:hover {
   color: #1d3977;
   transition: 0.5s ease;
   cursor: pointer;
