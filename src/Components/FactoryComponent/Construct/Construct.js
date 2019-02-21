@@ -6,7 +6,7 @@ const Construct = () => {
     return (
         <div className="Construct">
             <div className="constructTitle">
-                <h1>Factory</h1>
+                <h1>FACTORY</h1>
             </div>
             <div className="constructBox">
                 <div className="constructInnerBox">
@@ -44,11 +44,11 @@ const Construct = () => {
                 <div className="factoryExplain1">
                   <div className="factoryInnerExplain1">
                     <span>MAIN & ITEM</span>
-                    <p>Steel Structure, Duct, Pipe</p>
-                    <p>Pressure Vessel , Heat Exchanger</p>
-                    <p>Any Other Steel Items </p>
+                    <p><Icon type="tool" /> Steel Structure, Duct, Pipe</p>
+                    <p><Icon type="setting" /> Pressure Vessel , Heat Exchanger</p>
+                    <p><Icon type="tags" /> Any Other Steel Items </p>
                     <div className="factoryButton">
-                        <button>View More</button>
+                        <button><a target="blank" href="https://www.google.com/maps/place/C%C3%94NG+TY+TNHH+MTV+HG+ENC+VINA/@10.698458,106.844361,16z/data=!4m5!3m4!1s0x0:0xdea93749bbfdb390!8m2!3d10.698458!4d106.844361?hl=ko-KR">View More</a></button>
                     </div>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ const Construct = () => {
                   <div className="factoryInnerExplain">
                     <Icon style={{fontSize:"2.5rem", color: "#33a5a8"}} type="bulb" />
                     <div className="innerExplainBox">
-                        <h4>Strategic production</h4>
+                        <h4>Strategic Production</h4>
                         <p>sadfdfsafasfsdfsadf</p>
                     </div>
                   </div>

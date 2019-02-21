@@ -4,7 +4,7 @@ import './FactoryMain.css';
 const FactroryMain =  () => {
     return (
         <div className="FactoryMain">
-            <h1> Architecture is the reaching out for the truth</h1>
+            <h1>First Come, First Served</h1>
         </div>
     )   
 }

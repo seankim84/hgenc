@@ -55,46 +55,118 @@
     background: url('../../../static/images/plant1.png') center/cover no-repeat;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease;
+    cursor: zoom-in;
   }
 
 .InnerBox2 {
   background: url('../../../static/images/plant2.png') center/cover no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
 }
 
 .InnerBox3 {
   background: url('../../../static/images/plant3.png') center/cover no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
 }
 
 .InnerBox4 {
   background: url('../../../static/images/plant4.png') center/cover no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
 }
 
 .InnerBox5 {
   background: url('../../../static/images/plant5.png') center/cover no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
 }
 
 .InnerBox6 {
   background: url('../../../static/images/plant6.png') center/cover no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
 }
 
 .InnerBox7 {
   background: url('../../../static/images/plant7.png') center/cover no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
 }
 
 .InnerBox8 {
   background: url('../../../static/images/plant8.png') center/cover no-repeat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.InnerBox1:hover {
+  transform:scale(1.1);           
+  -webkit-transform:scale(1.1);  
+  -moz-transform:scale(1.1);     
+  -o-transform:scale(1.1);        
+}
+
+.InnerBox2:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox3:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox4:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox5:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox6:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox7:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.InnerBox8:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }

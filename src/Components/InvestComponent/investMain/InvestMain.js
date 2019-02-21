@@ -4,7 +4,7 @@ import './InvestMain.css';
 const InvestMain =  () => {
     return (
         <div className="InvestMain">
-            <h1> Architecture is the reaching out for the truth</h1>
+            <h1>Friends have all things in common</h1>
         </div>
     )   
 }

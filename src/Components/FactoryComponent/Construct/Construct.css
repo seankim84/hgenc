@@ -1,6 +1,6 @@
 .Construct {
     width:100vw;
-    height: 150vh;
+    height: 100vh;
     padding: 2rem 3rem 2rem 3rem;
 }
 
@@ -34,6 +34,7 @@
     font-size: 1.4rem;
     display:flex;   
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .factoryBox {
@@ -58,25 +59,28 @@
     color: #ffffff;
     display:flex;
     flex-direction: column;
+    font-family: 'Oswald', sans-serif;
     
 }
 
 .factoryInnerExplain1 span {
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     display:grid;
     justify-items: center;
 }
 
 .factoryInnerExplain1 p {
     margin: 0;
-    font-size:1.2rem;
+    font-size:1.5rem;
     padding: 0 0 1rem 2rem;
 }
 
 .factoryButton {
+    padding-top:3rem ;
     display:grid;
     justify-items: center;
+    font-size:1.3rem;
     color: #000000;
 }
 

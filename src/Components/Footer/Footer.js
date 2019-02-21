@@ -16,8 +16,8 @@ const Footer = () => (
         </div>
             
         <div className="footerIcon">
-            <div className="facebook"><a style={{}} target="blank" href={"https://www.facebook.com/HGENCVN/"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="facebook" /></a></div>
-            <div className="linkedin"><a style={{}} target="blank" href={"https://www.linkedin.com/company/hgenc/"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="linkedin" /></a></div>
+            <div className="facebook"><a target="blank" href={"https://www.facebook.com/HGENCVN/"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="facebook" /></a></div>
+            <div className="linkedin"><a target="blank" href={"https://www.linkedin.com/company/hgenc/"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="linkedin" /></a></div>
             <div className="instagram"><a href={"http://localhost:3000/contact"}><Icon style={{ padding:"0 1rem", fontSize:"2.5rem" }} type="mail" /></a></div>
         </div>
     </div>

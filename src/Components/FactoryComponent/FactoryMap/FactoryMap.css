@@ -1,0 +1,85 @@
+.FactoryMap {
+  width: 100vw;
+  height: 90vh;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.mapTitle {
+  padding-bottom: 2rem;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.mapTitle h1 {
+  font-size: 2.5rem;
+  border-bottom: 5px solid #26396f;
+}
+
+.mapBox {
+    display:grid;
+    grid-template-columns: 0.8fr 1.2fr;
+}
+
+.mapExplain {
+    padding-left:2.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.layOutTitle1 {
+    color: #223973;
+    font-size: 2rem;
+    padding-bottom:0.8rem;
+}
+.layOutTitle2 {
+  font-size: 2rem;
+  color:#a52218;
+}
+
+.mapList {
+    padding-top:2rem;
+    font-size: 1.5rem;
+}
+
+.ListMap {
+    display: inline-block;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+
+/* Factory Modal  */
+
+.ant-modal {
+    display:grid ;
+    justify-content: center;
+}
+
+.ant-modal-content {
+  width: 70vw;
+}
+
+.ant-modal-body {
+    width: 100%;
+}
+
+.ant-modal-confirm-body-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.ant-modal-confirm-content img {
+  width: 100%;
+  height: 100%;
+}
+
+.factoryModal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    width:60vw;
+    height:100%;
+
+}
