@@ -1,6 +1,10 @@
 import { Icon } from 'antd';
 import React from 'react';
 import './Construct.css';
+import factoryMenu1 from '../../../static/images/factoryMenu1.png'
+import factoryMenu2 from '../../../static/images/factoryMenu2.png'
+import factoryMenu3 from '../../../static/images/factoryMenu3.png'
+import factoryMenu4 from '../../../static/images/factoryMenu4.png'
  
 const Construct = () => {
     return (
@@ -15,8 +19,10 @@ const Construct = () => {
                     </div>
                     <div className="constructExplain">
                         <h4>Design Group</h4>
-                        <p>We has own Design Team</p>
-                        <p>They are making blahblah</p>
+                        <p>
+                            Broad knowledge of using Tekla Structure<br /> 
+                            AutoCAD for steel fabrication
+                        </p>
                     </div>
                 </div>
                 <div className="constructInnerBox">
@@ -25,8 +31,11 @@ const Construct = () => {
                     </div>
                      <div className="constructExplain">
                         <h4>Fabrication Group</h4>
-                        <p>We has own Design Team</p>
-                        <p>They are making blahblah</p>
+                        <p>
+                            A great experience of fabrication<br />
+                            Various steel items including steel structure, pressure vessel<br /> 
+                            And any other steel items
+                        </p>
                     </div>
                 </div>
                 <div className="constructInnerBox">
@@ -35,15 +44,17 @@ const Construct = () => {
                     </div>
                      <div className="constructExplain">
                         <h4>PM Group</h4>
-                        <p>We has own Design Team</p>
-                        <p>They are making blahblah</p>
+                        <p>
+                           Excellent management skills to control <br />
+                           Fabrication projects properly for on time delivery
+                        </p>
                     </div>
                 </div>
             </div>
             <div className="factoryBox">
                 <div className="factoryExplain1">
                   <div className="factoryInnerExplain1">
-                    <span>MAIN & ITEM</span>
+                    <h1 style={{color:"#223973"}}>MAIN & ITEMS</h1>
                     <p><Icon type="tool" /> Steel Structure, Duct, Pipe</p>
                     <p><Icon type="setting" /> Pressure Vessel , Heat Exchanger</p>
                     <p><Icon type="tags" /> Any Other Steel Items </p>
@@ -53,33 +64,17 @@ const Construct = () => {
                   </div>
                 </div>
                 <div className="factoryExplain2">
-                  <div className="factoryInnerExplain">
-                    <Icon style={{fontSize:"2.5rem", color: "#33a5a8"}} type="bulb" />
-                    <div className="innerExplainBox">
-                        <h4>Strategic Production</h4>
-                        <p>sadfdfsafasfsdfsadf</p>
-                    </div>
+                  <div className="innerFactoryPhoto">
+                    <img width="100%" height="100%" src={factoryMenu1} alt="factory menu" />
                   </div>
-                  <div className="factoryInnerExplain">
-                    <Icon style={{fontSize:"2.5rem", color: "#33a5a8"}} type="team" />
-                    <div className="innerExplainBox">
-                        <h4>Production Team</h4>
-                        <p>sadfdfsafasfsdfsadf</p>
-                    </div>
+                  <div className="innerFactoryPhoto">
+                    <img width="100%" height="100%" src={factoryMenu2} alt="factory menu" />
                   </div>
-                  <div className="factoryInnerExplain">
-                    <Icon style={{fontSize:"2.5rem", color: "#33a5a8"}} type="clock-circle" />
-                    <div className="innerExplainBox">
-                        <h4>On Time Delivery</h4>
-                        <p>sadfdfsafasfsdfsadf</p>
-                    </div>
+                  <div className="innerFactoryPhoto">
+                    <img width="100%" height="100%" src={factoryMenu3} alt="factory menu" />
                   </div>
-                  <div className="factoryInnerExplain">
-                    <Icon style={{fontSize:"2.5rem", color: "#33a5a8"}} type="dollar" />
-                    <div className="innerExplainBox">
-                        <h4>Reasonable Price</h4>
-                        <p>sadfdfsafasfsdfsadf</p>
-                    </div>
+                  <div className="innerFactoryPhoto">
+                    <img width="100%" height="100%" src={factoryMenu4} alt="factory menu" />
                   </div>
                 </div>
             </div>

@@ -124,3 +124,55 @@ h3 {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width:776px) {
+
+  .intro {
+    width:auto;
+    height: 110vh;
+  }
+
+  .introTitle {
+    padding:1rem 0 1rem 0;
+  }
+
+  .introTitle h1 {
+    font-size: 2rem;
+  }
+
+  .introBox {
+    width:100%;
+    height:auto;
+    padding: 0 0.5rem 0 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+  }
+
+  .eachExplain {
+    height: auto;
+  }
+  
+  .Plant h3 {
+    font-size:1rem;
+  } 
+  .Experience h3 {
+    font-size:1rem;
+  }
+  .Employees h3 {
+    font-size:1rem;
+  }
+  .Fabrication h3 {
+    font-size:1rem;
+  }
+
+  .eachExplain {
+    font-size:1rem;
+  }
+
+  .introFooter {
+    padding-top:1rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+}

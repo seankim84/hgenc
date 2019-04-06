@@ -2,7 +2,7 @@
   width: 100%;
   height: 40vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-    url('../../../static/images/businessMain.jpg') center/cover fixed no-repeat;
+    url('../../../static/images/MechanicMain.jpg') center/cover fixed no-repeat;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -11,4 +11,17 @@
 .PlantMain h1 {
   color: #ffffff;
   font-size: 2rem;
+}
+
+@media screen and (max-width:776px) {
+
+  .PlantMain {
+    padding: 0 1rem;
+  }
+  
+  .PlantMain h1 {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
 }

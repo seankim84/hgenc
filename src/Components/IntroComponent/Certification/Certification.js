@@ -13,7 +13,7 @@ class Certification extends Component {
             Modal.success({
                 title: 'ISO Certification EN',
                 content: <div className="CertiContent">
-                    <img style={{ objectFit:"contain" }} src={Certification1} alt="ISO Certification"/>
+                    <img style={{ width: "25vw" }} src={Certification1} alt="ISO Certification"/>
                 </div>,
             });
         }
@@ -22,7 +22,7 @@ class Certification extends Component {
             Modal.success({
                 title: 'ISO Certification VN',
                 content: <div>
-                    <img style={{ width: "30vw" }} src={Certification2} alt="ISO Certification"/>
+                    <img style={{ width: "25vw" }} src={Certification2} alt="ISO Certification"/>
                 </div>,
             });
         }

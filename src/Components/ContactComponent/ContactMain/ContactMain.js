@@ -4,7 +4,7 @@ import './ContactMain.css';
 const ContactMain =  () => {
     return (
         <div className="ContactMain">
-            <h1>Weak things united become strong</h1>
+            <h1>Making your vision come true, That is what we do</h1>
         </div>
     )   
 }

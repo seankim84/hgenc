@@ -7,7 +7,7 @@ const Doit = () => {
             <div className="DoitTitle">
                 <h1>What We Do</h1>
                 <h3>Plant Mechanical</h3>
-                <span>Chemical Plant (PET, Nylon, Textile..,), Steel Mill, Power Plant, Feed Mill, Environmental plant (WT, WWT, Desulfurization)</span>
+                <span>Chemical Plant ㅣ Steel mill Plant | Power Plant | Feed mill Plant | Environmental Plant ㅣ Other Plant</span>
             </div>
             <div className="DoitBox">
                 <div className="InnerBox1"><p>a</p></div>

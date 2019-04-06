@@ -4,7 +4,7 @@ import './PlantMain.css';
 const PlantMain =  () => {
     return (
         <div className="PlantMain">
-            <h1>Entrepreneurship is really all about creating your own opportunities</h1>
+            <h1>Our goal then and now is to provide quality on time projects</h1>
         </div>
     )   
 }

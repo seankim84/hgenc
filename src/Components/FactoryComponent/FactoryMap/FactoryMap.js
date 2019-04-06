@@ -87,23 +87,22 @@ class FactoryMap extends Component {
         return (
             <div className="FactoryMap">
                 <div className="mapTitle">
-                    <h1>FATORY LAYOUT</h1>
+                    <h1>FACTORY LAYOUT</h1>
                 </div>
                 <div className="mapBox">
                     <div className="mapExplain">
                         <strong className="layOutTitle1">WORKING </strong>
                         <strong className="layOutTitle2">AREA </strong>
                         <div className="mapList">
-                            <div onClick={info1} className="ListMap">1. Built-up & CNC Line</div><br />
-                            <div onClick={info2} className="ListMap">2. Welding Line</div><br />
-                            <div onClick={info3} className="ListMap">3. Painting Area</div><br />
-                            <div onClick={info4} className="ListMap">4. Packing Area</div><br />
-                            <div onClick={info5} className="ListMap">5. Outside Shop(Vessel)</div><br />
-                            <div onClick={info6} className="ListMap">6. Raw Material Stock</div>
+                            <div onClick={info1} className="ListMap"><p className="hoverlayout1"><strong>1</strong> Built-up & CNC Line</p></div><br />
+                            <div onClick={info2} className="ListMap"><p className="hoverlayout2"><strong>2</strong> Welding Line</p></div><br />
+                            <div onClick={info3} className="ListMap"><p className="hoverlayout3"><strong>3</strong> Painting Area</p></div><br />
+                            <div onClick={info4} className="ListMap"><p className="hoverlayout4"><strong>4</strong> Packing Area</p></div><br />
+                            <div onClick={info5} className="ListMap"><p className="hoverlayout5"><strong>5</strong> Outside Shop(Vessel)</p></div><br />
+                            <div onClick={info6} className="ListMap"><p className="hoverlayout6"><strong>6</strong> Raw Material Stock</p></div>
                         </div>
-                        
                     </div>
-                    <div className="Layout"><img width="100%" height="100%" src={factoryMap} alt="hgenc factory"/></div>
+                    <div className="Layout"><img width="100%" height="90%" src={factoryMap} alt="hgenc factory"/></div>
                 </div>
             </div>
         ) 

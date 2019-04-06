@@ -10,7 +10,7 @@ class Business extends Component {
         return (
             <div>
              <Helmet>
-                <title>H&G | Bussiness</title>
+                <title>H&G | Mechanical</title>
             </Helmet>
             <Header />
             <PlantMain />

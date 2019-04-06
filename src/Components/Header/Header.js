@@ -4,17 +4,20 @@ import HeaderDrawer from './Drawer/HeaderDrawer';
 import Logo from '../../static/images/logo.png';
 import './Header.css';
 
-  
-
 class Header extends Component {
   render(){
     return(
       <div className="HeaderMain">
         <div className="ShadowHeader">
           <div className="ShadowTitle">
-            <Link style={{ textDecoration:"none" }} to='/'>H&G</Link>
+            <div className="ShadowLogo">
+              <Link style={{ textDecoration:"none" }} to='/'>
+                <img width="100%" height="100%" src={Logo} alt="shadow header" />
+              </Link>
+            </div>
+            <div className="ShadowMenu"><HeaderDrawer /></div>
           </div>
-          <div className="ShadowMenu"><HeaderDrawer /></div>
+          
         </div>
 
     <div className="Header">
@@ -22,7 +25,7 @@ class Header extends Component {
       <div className="HeaderNav">
         <div className="HeaderTitle">
         <Link to='/'>
-          <img style={{ width:"100%", height:"100%" }} src={Logo} alt="hgenc"/>
+          <img style={{ width:"100%" }} src={Logo} alt="hgenc"/>
         </Link>
         </div>
         <nav>
@@ -31,7 +34,10 @@ class Header extends Component {
               <Link to={'/intro'}>Intro</Link>
             </li>
             <li>
-              <Link to={'/business'}>Business</Link>
+              <Link to={'/business'}>Mechanical</Link>
+            </li>
+            <li>
+              <Link to={'/civil'}>Civil</Link>
             </li>
             <li>
               <Link to={'/invest'}>Invest</Link>

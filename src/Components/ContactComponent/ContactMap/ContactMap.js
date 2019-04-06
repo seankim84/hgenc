@@ -55,6 +55,9 @@ class ContactMap extends Component {
     const { current } = this.state;
     return (
       <div className="MapContainer">
+        <div className="MapTitle">
+          <h1>CONTACT</h1>
+        </div>
         <Steps current={current}>
           {steps.map(item => <Step key={item.title} title={item.title} />)}
         </Steps>
@@ -62,13 +65,13 @@ class ContactMap extends Component {
         <div className="steps-action">
           {
             current < steps.length - 1
-            && <Button type="primary" onClick={() => this.next()}>Factory</Button>
+            && <Button type="primary" onClick={() => this.next()}>FACTORY</Button>
           }
           {
             current > 0
             && (
             <Button style={{ marginLeft: 8 }} onClick={() => this.prev()}>
-              Office
+              OFFICE 
             </Button>
             )
           }

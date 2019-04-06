@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import Header from '../Components/Header';
 import InvestMain from '../Components/InvestComponent/investMain';
 import Investment from '../Components/InvestComponent/investment';
+import Family from '../Components/InvestComponent/Family';
 import Footer from '../Components/Footer';
 
 class Invest extends Component {
@@ -15,6 +16,7 @@ class Invest extends Component {
             <Header />
                 <InvestMain />
                 <Investment />
+                <Family />
             <Footer />
             </div>
         )

@@ -12,7 +12,7 @@ class Registration extends Component {
             Modal.success({
                 title: 'Authorized by the Vietnamese government',
                 content: <div className="CertiContent">
-                    <img style={{ width: "20vw" }} src={Registration1} alt="Vietnam Registration"/>
+                    <img style={{ width: "25vw" }} src={Registration1} alt="Vietnam Registration"/>
                 </div>,
             });
         }
@@ -21,7 +21,7 @@ class Registration extends Component {
             Modal.success({
                 title: 'Authorized by the Vietnamese government',
                 content: <div>
-                    <img style={{ width: "20vw" }} src={Registration2} alt="Vietnam Registration"/>
+                    <img style={{ width: "25vw" }} src={Registration2} alt="Vietnam Registration"/>
                 </div>,
             });
         }
@@ -32,7 +32,12 @@ class Registration extends Component {
                     
                     <div className="RegiBox">
                         <p>
-                            우리는 합법적인 vietnam 회사로서, Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+                            The company registration document is a written statement<br />
+                            from the Vietnam Government which confirms <br />
+                            that HG ENC company legally exists <br />
+                            The company registration number<br /> 
+                            (also known as the company number)<br /> 
+                            is used to identify HG ENC company in Vietnam
                         </p>
                     </div>
                     <div className="CertiImageBox">

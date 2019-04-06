@@ -68,3 +68,37 @@
     transition: .5s ease;
   color: #1d3977;
 }
+
+@media screen and (max-width:776px) {
+  .mainSliderExplain {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  
+  .sliderButton {
+    position: absolute;
+    top:15vh;
+    width:100%;
+    height:50% ;
+  }
+
+  .buttonLeft {
+    padding: 0;
+   
+  }
+
+  .buttonRight {
+    padding : 0;
+  }
+
+  .buttonLeft svg {
+    display: none;
+    
+  }
+
+  .buttonRight svg {
+    display: none ;
+    
+  }
+}

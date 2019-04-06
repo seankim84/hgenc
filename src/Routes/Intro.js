@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import Greeting from '../Components/IntroComponent/Greeting';
+import Strength from '../Components/IntroComponent/Strength';
 import IntroMain from '../Components/IntroComponent/IntroMain';
 import Certification from '../Components/IntroComponent/Certification';
 import Registration from '../Components/IntroComponent/Registration';
@@ -18,6 +19,7 @@ class Intro extends Component {
             <Header />
             <IntroMain />
             <Greeting />
+            <Strength />
             <Certification />
             <Registration />
             <Organization />

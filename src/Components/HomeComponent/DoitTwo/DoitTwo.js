@@ -6,7 +6,7 @@ const DoitTwo = () => {
         <div className="DoitTwo">
             <div className="DoitTwoTitle">
                 <h3>Civil & Architecture Mechanical</h3>
-                <span>Chemical Plant (PET, Nylon, Textile..,), Steel Mill, Power Plant, Feed mill, WT, WWT, Road, Factories and Office Building</span>
+                <span>Chemical Plant | Steel mill Plant | Power Plant | Feed mill Plant | WT | WWT | Factories | Office Building</span>
             </div>
             <div className="DoitTwoBox">
                 <div className="InnersBox1"><p>a</p></div>

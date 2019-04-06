@@ -19,12 +19,12 @@ class Slider extends Component {
 
   render() {
     const props = {
-      autoplay: false,   
+      autoplay: true,   
       dots: false,
       infinite: true, 
       slidesToScroll: 1,
       slidesToShow: 1,
-      speed: 500,
+      speed: 1000,
     };
 
     return (
@@ -40,7 +40,7 @@ class Slider extends Component {
               <h3 className="mainSliderExplain">Each new situation requires a new architecture</h3>
             </div>
             <div className="mainSlider4">
-              <h3 className="mainSliderExplain">Whatever good things we build end up building us.</h3>
+              <h3 className="mainSliderExplain">Whatever good things we build end up building us</h3>
             </div>
         </Carousel>
 

@@ -1,66 +1,93 @@
-.contact {
-  width: 100vw;
-  height: 90vh;
-  padding-top: 5vh;
-
+.contactInfo {
+  width:100vw;
+  height: 60vh; 
+  padding:2rem 3rem 3rem 3rem;
 }
 
-.contactTitle {
+.contactInfoBox {
+  width:100%;
+  height: 100%;
   display: grid;
-  justify-items: center;
-  padding-bottom: 3rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.contactTitle h1 {
+.InnerContactBox {
+  width:100%;
+  height:100%;
+}
+
+.contactBoxTitle {
+  display: grid;
+  justify-content: center;
   margin: 0;
-  font-size: 2.5rem;
-  border-bottom: 5px solid #1d3977;
+  font-family: 'Oswald', sans-serif;
 }
 
-
-
-.contactMain {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.contactBoxs {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  padding-left: 2rem;
-}
-
-.contactBox {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-
-
-.contactExplain {
-  width: 100%;
-  display: grid;
-  justify-items: center;
-}
-
-.contactExplain h1 {
-  font-size: 1.5rem;
-  padding: 1rem 0;
+.contactBoxTitle h1 {
   margin: 0;
 }
 
-.contactExplain p {
-  font-weight: 600;
-  font-size: 1rem;
+.contactContent {
+  padding-left:2rem;
+  display: grid;
+  align-items:center;
+  width:100%;
+  height:100%;
+  font-family: 'Oswald', sans-serif;
 }
 
-.contactExplain span {
-  text-align: center;
-  color: #7a7a7a;
+.contactContent p {
+  font-size:1.3rem;
+  margin: 0;
+  font-weight: 300;
 }
 
-.contactMap {
-  padding-right: 2rem;
+.InnerContent {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  align-items : center;
+}
+
+.InnerContent span {
+  color: #26396f;
+  font-size:1rem;
+}
+
+@media screen and (max-width:776px) {
+  .contactInfo {
+    height: 85vh ;
+    padding: 2rem 0.5rem 0 1rem;
+  }
+
+  .contactInfoBox {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+  }
+
+  .contactBoxTitle h1{
+    font-size:1.2rem;
+  }
+
+  .InnerContactBox  {
+    height: auto;
+  }
+
+  .contactContent {
+    height: auto;
+    padding: 1rem 0  1.5rem 0;
+  }
+
+  .contactContent p {
+    font-size: 1rem;
+  }
+
+  .contactContent span {
+    font-size:0.8rem ;
+  }
+
+  .InnerContent {
+    padding: 1rem 0 1rem 0;
+  }
+
 }
