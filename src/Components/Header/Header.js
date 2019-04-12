@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from  'react-router-dom';
 import HeaderDrawer from './Drawer/HeaderDrawer';
-import Logo from '../../static/images/logo.png';
+import Logo from '../../static/images/hglogo.jpg';
 import './Header.css';
 
 class Header extends Component {

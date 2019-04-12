@@ -244,7 +244,7 @@ const Project = () => {
                                 </tr>
                                 <tr>
                                     <th scope="row">SITE</th>
-                                    <td>TAI NINH</td>
+                                    <td>TAY NINH</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">YEAR</th>

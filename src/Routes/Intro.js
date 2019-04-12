@@ -15,6 +15,8 @@ class Intro extends Component {
             <div>
             <Helmet>
                 <title>H&G | Intro</title>
+                <meta name="description" content="Hello we are the construction corporation in Vietnam. We have own factory and construction knowhow and We know how much effort for you" />
+                <link rel="canonical" href="https://hgenc.net/intro" />
             </Helmet>
             <Header />
             <IntroMain />

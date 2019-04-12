@@ -12,6 +12,8 @@ class Contact extends Component {
             <div>
                 <Helmet>
                     <title>H&G | Contact</title>
+                    <meta name="description" content="HGENC Location and  Contact with Google Map" />
+                    <link rel="canonical" href="https://hgenc.net/contact" />
                 </Helmet>
                 <Header />
                 <ContactMain />

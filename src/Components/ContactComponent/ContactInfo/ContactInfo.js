@@ -27,7 +27,7 @@ const ContactInfo = () => (
                         </div>
                         <div>
                             <span>
-                                030.354.2386
+                                028.374.01369
                             </span>
                         </div>
                     </div>

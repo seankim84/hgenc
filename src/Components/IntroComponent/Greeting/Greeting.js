@@ -13,7 +13,7 @@ class Greeting extends Component {
                     <div className="ceoExplain1">
                         Since its founding in 2002, <br />
                         HG Engineering and Construction has achieved remarkable achievement in Vietnam by satisfying customers through < br / >
-                        the Best Service, Best Quality and Competitive Price 
+                        the Best Service, Best Quality and Competitive Price. 
                 </div> 
                     <div className = "ceoExplain2" >
                         <div className = "ceoExplain3" >

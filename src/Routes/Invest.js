@@ -12,6 +12,9 @@ class Invest extends Component {
             <div>
             <Helmet>
                 <title>H&G | Invest</title>
+                <meta name="description" content="HGENC work with a lot of corporation and company. posco, formosa, sunjin, hyundai rotem, woosung, cjsc, tiron, sungshin, kyungshin, cheng loong corp, fhs, kolon, far estern new century corporation, hoa phat" />
+                <link rel="canonical" href="https://hgenc.net/invest" />
+
             </Helmet>
             <Header />
                 <InvestMain />

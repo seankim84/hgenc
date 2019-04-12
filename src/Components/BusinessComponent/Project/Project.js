@@ -148,7 +148,7 @@ class Project extends Component {
                                 </tr>
                                 <tr>
                                     <th scope="row">SITE</th>
-                                    <td>BINH DUNG</td>
+                                    <td>BINH DUONG</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">YEAR</th>
@@ -181,7 +181,7 @@ class Project extends Component {
                                 </tr>
                                 <tr>
                                     <th scope="row">SITE</th>
-                                    <td>BINH DUNG</td>
+                                    <td>BINH DUONG</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">YEAR</th>

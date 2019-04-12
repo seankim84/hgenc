@@ -11,6 +11,8 @@ class Business extends Component {
             <div>
              <Helmet>
                 <title>H&G | Mechanical</title>
+                <meta name="description" content="HGENC Business part civil architecture plant Mechanical contruction" />
+                <link rel="canonical" href="https://hgenc.net/business" />
             </Helmet>
             <Header />
             <PlantMain />

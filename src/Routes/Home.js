@@ -13,6 +13,8 @@ class Home extends Component {
             <div>
                 <Helmet>
                     <title>H&G | Home</title>
+                    <meta name="description" content="HGENC Group is best construction corp in Vietnam. We have a lot of employees for construction you need." />
+                    <link rel="canonical" href="https://hgenc.net/" />
                 </Helmet>
                 <Header />
                 <Slider />

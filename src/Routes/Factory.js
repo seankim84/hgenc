@@ -16,6 +16,8 @@ class Factory extends Component {
             <div>
                 <Helmet>
                     <title>H&G | Factory</title>
+                    <meta name="description" content="HGENC has own factory for construction materials in Ho chi minh Vietnam" />
+                    <link rel="canonical" href="https://hgenc.net/factory" />
                 </Helmet>
                 <Header />
                 <FactoryMain />

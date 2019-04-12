@@ -8,13 +8,19 @@
     "aws-sdk": "^2.409.0",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.1",
+    "fs": "^0.0.1-security",
+    "loader": "^2.1.1",
+    "morgan": "^1.9.1",
     "nodemailer": "^5.1.1",
     "path": "^0.12.7",
+    "prerender-node": "^3.2.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
+    "react-router": "^5.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.3",
     "xoauth2": "^1.2.0"
@@ -23,8 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "aws s3 sync ./build s3://hgenc.net --profile=hgenc",
+    "test": "react-scripts build && babel-node server",
+    "server": "node src/index.js",
     "invalidate": "aws cloudfront create-invalidation --profile=hgenc --distribution-id E2T750NWSCG6YL --paths / /index.html /error.html /service-worker.js /manifest.json /favicon.ico",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -35,5 +42,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-require-ignore": "^0.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }

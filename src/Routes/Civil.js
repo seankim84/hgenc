@@ -12,6 +12,8 @@ class Civil extends Component {
             <div>
                 <Helmet>
                     <title>H&G | Civil</title>
+                    <meta name="description" content="HGENC Business part civil architecture plant Mechanical contruction" />
+                    <link rel="canonical" href="https://hgenc.net/civil" />
                 </Helmet>
                 <Header />
                 <CivilMain />

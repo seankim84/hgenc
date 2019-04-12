@@ -2,7 +2,7 @@ import { Icon } from 'antd';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
-import FooterLogo from '../../static/images/logo.png';
+import FooterLogo from '../../static/images/hglogo.jpg';
 
 const Footer = () => (
     <div className="footer">
